@@ -1,0 +1,95 @@
+<html>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style>
+
+img 
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:1368px;
+  height:700px;
+  z-index: -1;
+  filter: brightness(70%);
+}
+body 
+{ 
+  margin: 0; 
+  padding: 0; 
+} 
+
+.buscar-caja { 
+  position: absolute; 
+  top: 50%; left: 50%; 
+  transform: translate(-50%, -50%); 
+  background: black; 
+  border-radius: 40px; 
+  padding: 10px; 
+} 
+.buscar-caja:hover > .buscar-txt 
+{
+  width: 240px; 
+  padding: 0 6px; 
+} 
+.buscar-caja:hover > .buscar-btn {
+  background: white; 
+  color: red; 
+} 
+
+.buscar-btn { 
+  
+  float: right; 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  transition: 0.4s; 
+  color: white; 
+  cursor: pointer; 
+} 
+.buscar-btn > i 
+{ 
+  font-size: 18px;
+  color: red;
+} 
+.buscar-txt { 
+  border: none; 
+  background: none; 
+  outline: none; 
+  float: left; 
+  padding: 0; 
+  color: white; 
+  font-size: 16px; 
+  transition: 0.4s; 
+  line-height: 40px; 
+  width: 0px; 
+  font-weight: bold; 
+}
+
+.btn-primary{
+    background: red;
+    color: red;
+    border: none;
+}
+
+</style>
+</head>
+
+<body>
+<img src="aerial-photography-architecture-building-1546168.jpg" align="middle">
+    <div class="buscar-caja"> 
+        <input type="text" name="" class="buscar-txt" placeholder="Search ....."/> 
+        <a class="buscar-btn"> <i class="fa fa-search"></i> </a> 
+        
+    </div> 
+</body>   
+    
+   
